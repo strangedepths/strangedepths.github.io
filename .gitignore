@@ -1,0 +1,6 @@
+devlogs/markdown/
+javascript/
+node_modules/
+templates/
+package.json
+package-lock.json
