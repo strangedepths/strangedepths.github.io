@@ -190,7 +190,7 @@ nav {
     justify-content: space-between;
     width: clamp(20rem, 90vw, 95vw);
     height: clamp(4rem, 5vw, 7.5rem);
-    padding: 0vw clamp(1.6rem, 3vw, 3vw);
+    padding: 0vw clamp(1rem, 3vw, 3vw);
 }
 
 nav #studioLogo a {
