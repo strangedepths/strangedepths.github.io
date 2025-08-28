@@ -23,7 +23,7 @@ FILE ORDER:
 @font-face {
     font-family: Daydream;
     font-smooth: never;
-    src: url(/fonts/Daydream.otf);
+    src: url('/fonts/Daydream.otf');
     -webkit-font-smoothing: none;
 }
 
