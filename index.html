@@ -9,67 +9,80 @@
     <link rel="icon" href="/images/Icon_NoBackground.png">
 </head>
 
-<nav>
-    <h5 id="studioLogo"><a href="/index.html">STRANGE DEPTHS<br>GAME STUDIO</a></h5>
-    <span class="socialLinks">
-        <div class="iconButton">
-            <a href="https://discord.gg/q9gM35HQgA">
-                <img src="images/pixelIcons/Discord.png" alt="Discord Icon" class="icon">
-            </a>
-        </div>
-        <div class="iconButton">
-            <a href="https://www.youtube.com/@strangedepths">
-                <img src="images/pixelIcons/YouTube.png" alt="YouTube Icon" class="icon">
-            </a>
-        </div>
-        <div class="iconButton">
-            <a href="https://strangedepths.itch.io/">
-                <img src="images/pixelIcons/Itch.png" alt="Itch Icon" class="icon">
-            </a>
-        </div>
-        <div class="iconButton">
-            <a href="https://www.reddit.com/r/StrangeDepths/">
-                <img src="images/pixelIcons/Reddit.png" alt="Reddit Icon" class="icon">
-            </a>
-        </div>
-        <div class="iconButton">
-            <a href="https://www.tiktok.com/@strangedepths">
-                <img src="images/pixelIcons/TikTok.png" alt="TikTok Icon" class="icon">
-            </a>
-        </div>
-    </span>
-</nav>
-
 <body>
+    <nav>
+        <div class="sectionContent">
+            <h5 id="studioLogo"><a href="/index.html">STRANGE DEPTHS<br>GAME STUDIO</a></h5>
+            <span class="socialLinks">
+                <div class="iconButton">
+                    <a href="https://discord.gg/q9gM35HQgA">
+                        <img src="images/icons/discord.png" alt="Discord Icon" class="icon">
+                    </a>
+                </div>
+                <div class="iconButton">
+                    <a href="https://www.youtube.com/@strangedepths">
+                        <img src="images/icons/youtube.png" alt="YouTube Icon" class="icon">
+                    </a>
+                </div>
+                <div class="iconButton">
+                    <a href="https://strangedepths.itch.io/">
+                        <img src="images/icons/itch.png" alt="Itch Icon" class="icon">
+                    </a>
+                </div>
+                <div class="iconButton">
+                    <a href="https://www.reddit.com/r/StrangeDepths/">
+                        <img src="images/icons/reddit.png" alt="Reddit Icon" class="icon">
+                    </a>
+                </div>
+                <!-- <div class="iconButton">
+                <a href="https://www.tiktok.com/@strangedepths">
+                    <img src="images/icons/tik-tok.png" alt="TikTok Icon" class="icon">
+                </a>
+            </div> -->
+            </span>
+        </div>
+    </nav>
+    <div class="topSpacer"></div>
     <div class="section" id="splashScreen">
         <div id="overlay"></div>
         <article class="sectionContent">
             <!-- Discord server embed -->
             <!-- <iframe src="https://discord.com/widget?id=1408412453431148674&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
-            <span id="downArrow">
+            <!-- <span id="downArrow">
                 <div class="iconButton">
                     <a href="#recentDevlogs">
                         <img src="images/pixelIcons/DownArrow.png" alt="Down Arrow" class="icon">
                     </a>
                 </div>
-            </span>
+            </span> -->
         </article>
     </div>
-    <div class="section" id="recentDevlogs">
-        <article class="sectionContent" id="#recentDevlogs">
-            <a href="/devlogs.html">View All ></a>
-            <h2>Recent Devlogs!</h2>
-            <br>
+    <div id="devlogList" class="section">
+        <article class="sectionContent">
+            <span class="dateBar">
+                <h1>Dev Logs</h1>
+                <a href="/devlogs.html">View All ></a>
+            </span>
             <span id="devlogContainer">
 <a class="standoutContainer" href="/devlogs/the-story-behind-strange-depths.html">
     <div class="maskImage thumbnail" style="background-image: url('/images/backgroundPlaceholder2.png');"></div>
-    <h5 class="title">The Story Behind Strange Depths</h5>
-    <p class="summary">Hey this is our first devlog!</p>
-    <hr>
-    <span class="dateBar">
-        <p class="author"><small>Written by: Slinky</small></p>
-        <p class="date"><small>August 28, 2025</small></p>
-    </span>
+    <div class="rightContent">
+        <h2 class="title">The Story Behind Strange Depths</h2>
+        <p class="summary">The history of Strange Depths game studio!</p>
+        <span class="dateBar">
+            <p class="date"><small>August 31, 2025</small></p>
+        </span>
+    </div>
+</a>
+<a class="standoutContainer" href="/devlogs/life-light-glyph.html">
+    <div class="maskImage thumbnail" style="background-image: url('/images/backgroundPlaceholder2.png');"></div>
+    <div class="rightContent">
+        <h2 class="title">Life Light Glyph</h2>
+        <p class="summary">Hey this is our first devlog!</p>
+        <span class="dateBar">
+            <p class="date"><small>August 28, 2025</small></p>
+        </span>
+    </div>
 </a>
 <!-- DEVLOGS -->
             </span>
@@ -78,25 +91,29 @@
     <div class="section" id="about">
         <article class="sectionContent" id="#section3">
             <h2>About</h2>
-            <p>Strange Depths is a three person indie game studio technically born in Michigan, USA but currently we
-                have
-                no definite location as we are spread across the world! Right now we are working on our first game "Life
-                Light: Glyph" as I'm sure you've noticed! Having all met online relatively recently we're still getting
-                to know eachother but the chemistry is there! We all have the goal of deepening our understanding of
-                game development in every category and creating fun, engaging experiences
-                where skill is valued over sheer strength.
-                <br><br>
-                "Life Light: Glyph" is a project that has a very long history
-                of which you can learn about in our first devlog and YouTube video! Our current goal is to have a
-                playable
-                demo out by mid December of this year (2025) but we want it to be as good as possible so if we think
-                it needs more time, we will do so.
-                <br><br>
-                Join us in our Discord server to witness our behind the scenes and participate in the playtesting! If
-                you'd like to support us you can do so through our Kickstarter!
-            </p>
-            <br>
-            <h4>Team Members</h4>
+            <div class="standoutContainer">
+                <p>Strange Depths is a three person indie game studio currently working on our first game
+                    "Life
+                    Light: Glyph"! Having all met online relatively recently we're still
+                    getting
+                    to know eachother but the chemistry is there!
+                    <br><br>
+                    "Life Light: Glyph" is a project that has a very long history
+                    of which you can learn about in our first devlog and YouTube video! Our current goal is to have a
+                    playable
+                    demo out by mid December of this year (2025) but we want it to be as good as possible so if we think
+                    it needs more time, we will do so.
+                    <br><br>
+                    Join us in our Discord server to witness our behind the scenes and participate in the playtesting!
+                    If
+                    you'd like to support us you can do so through our Kickstarter!
+                </p>
+            </div>
+        </article>
+    </div>
+    <div class="section" id="about">
+        <article class="sectionContent" id="#section3">
+            <h2>Team Members</h2>
             <span id="teamMembers">
                 <div class="standoutContainer">
                     <span class="topBar">
@@ -106,10 +123,14 @@
                             <p><small>Team Lead & Programmer</small></p>
                         </div>
                     </span>
-                    <p class="description">The director of Strange Depths. Having done artwork and programming for
-                        various other indie game projects in the past and meddling in anything and everything tech
-                        related that I could get my hands on since middleschool, I decided it was time to try
-                        my hand at running my own game studio. I do all sides of game dev including art, level design,
+                    <p class="description">The director of Strange Depths. Having grown up with such amazing titles from
+                        all eras of gaming like 007, Resident Evil, The Elder Scrolls, The Legend of Zelda, Minecraft,
+                        plus newer titles like Hollow Knight, Celeste, Journey, etc. and diving into anything and
+                        everything tech related I could since I was young coupled with having done artwork and
+                        programming for
+                        various other indie game projects in the past, I decided it was time to try
+                        my hand at running my own game studio. <br><br>I do all sides of game dev including art, level
+                        design,
                         music (kinda), sfx, programming, writing, etc.
                     </p>
                 </div>
@@ -118,10 +139,16 @@
                         <div class="maskImage icon" id="sun"></div>
                         <div>
                             <h5 class="name">Sun</h5>
-                            <p><small>Artist</small></p>
+                            <p><small>Creative Designer</small></p>
                         </div>
                     </span>
-                    <p class="description">A live streamer and freelance artist!
+                    <p class="description">The teams creative designer. While new to game design I’ve set out to learn
+                        all forms of artistic avenues with character design, graphic design, animation, 3D models, world
+                        building, digital painting, and more recently, pixel art! <br><br>Video games have been
+                        something I grew
+                        up with, starting way back with the game boy colour, to game cube, then xbox, and now high end
+                        PC gaming. Ending up in game design was truly a matter of time, combining all those creative
+                        skills into a the labour of passion that is indie game development.
                     </p>
                 </div>
                 <div class="standoutContainer">
